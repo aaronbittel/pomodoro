@@ -1,0 +1,17 @@
+[project]
+name = "pomodoro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Aaron Bittel", email = "aaron@bittels.de" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+pomodoro = "pomodoro:main.main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
